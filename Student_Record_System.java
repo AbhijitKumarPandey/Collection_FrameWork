@@ -111,7 +111,7 @@ public class Student_Record_System {
             }
         } while (choice != 0);
 
-        sc.close();
+        
     }
 }
 		
