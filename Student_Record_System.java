@@ -65,7 +65,7 @@ public class Student_Record_System {
                     entryOrder.add(roll);
                     undoStack.push(s);
 
-                    System.out.println("✅ Student added!");
+                    System.out.println(" Student added!");
                     break;
 
                 case 2:
@@ -84,9 +84,9 @@ public class Student_Record_System {
                         Student removed = undoStack.pop();
                         studentList.remove(removed);
                         entryOrder.removeLastOccurrence(removed.roll_number);
-                        System.out.println("❌ Removed: " + removed);
+                        System.out.println(" Removed: " + removed);
                     } else {
-                        System.out.println("⚠️ Nothing to undo.");
+                        System.out.println(" Nothing to undo.");
                     }
                     break;
 
